@@ -3,11 +3,12 @@
 
 CSS rules to specify families
 
-/*font-family: 'Bad Script', cursive;
+font-family: 'Bad Script', cursive;
 font-family: 'EB Garamond', serif;
-font-family: 'Inconsolata', monospace; */
+font-family: 'Inconsolata', monospace;
 font-family: 'Poppins', sans-serif;
 font-family: 'Sorts Mill Goudy', serif;
+
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -15,7 +16,7 @@ body {
 
 /* Global */
 
-img {
+/*img {
   max-width: 100%;
 }
 
@@ -35,7 +36,7 @@ img {
   font-size: 1rem;
   font-weight: bold;
 }
-
+*/
 
 /* Navigation */
 
@@ -46,26 +47,30 @@ nav.header {
   left: 0;
 }
 
-nav.header ul {
+nav ul {
   list-style: none;
   padding: 0;
   margin: 1rem;
   display: flex;
 }
 
-nav.header ul li {
+nav ul li {
   margin-left: 1rem;
 }
 
-nav.header ul li:first-child {
+nav ul li:first-child {
   margin-left: 0;
   margin-right: auto;
 }
 
-nav.header ul li a {
+nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+
+
+
+
 
 /*@media screen and (max-width: 600px) 
 
@@ -91,33 +96,42 @@ section.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   background-size: cover;
   padding-left: 3rem;
 }
 
-/*  background: url("../images/WebBlackTie.jpg"); */
+/*  background: url("/images/WebBlackTie.jpg"); 
 
+section.hero h1 {
+  font-size: 3rem;
+  color: #040964;
+  max-width: 25rem;
+}
 
-@media screen and (max-width: 600px) {
+section.hero img.ad {
+  width: 15rem;
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+@media screen and (max-width: 600px) 
+
+{
   section.hero {
     height: 30rem;
     padding-left: 1rem;
   }
 
   section.hero h1 {
-  font-size: 2rem;
-  color: #040964;
+    font-size: 2rem;
   }
 
-  section.hero img.ad {
-  width: 15rem;
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-  }
-  section.hero aside.action {
-  font-family: Sorts Mill Goudy;
+    section.hero aside.action {
+  font-family: Bad Script;
   font-size: 1rem;
   font-weight: bold;
   }
 }
+ */
