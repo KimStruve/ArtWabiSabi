@@ -15,6 +15,10 @@ body {
 
 /* Global */
 
+h1 {
+  font-size: 2rem;
+}
+
 img {
   max-width: 100%;
 }
@@ -67,9 +71,7 @@ nav.header ul li a {
   text-decoration: none;
 }
 
-/*@media screen and (max-width: 600px) 
-
-{
+@media screen and (max-width: 480px) {
   nav ul {
     margin: 1rem;
     flex-direction: column;
@@ -78,7 +80,7 @@ nav.header ul li a {
   nav ul li {
     margin-left: 0;
   }
-} */
+}
 
 /* Hero */
 
