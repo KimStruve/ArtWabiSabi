@@ -1,124 +1,120 @@
-/* Body styling */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Inconsolata:wght@400;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+
+CSS rules to specify families
+
+font-family: "Bad Script", cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
+
 body {
-  background: #fff;
-  color: black;
-  font-family: Helvetica, Arial;
-  font-size: 27px;
-  font-weight: 300;
-  line-height: 1.65em;
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 40px 10px;  
+  font-family: 'Poppins', sans-serif;
 }
 
+/* Global */
 
-/* Heading Styles */
-h1 {
-  font-size: 96px;
-  color: darkmagenta;
-  text-align: center;
+/*img {
+  max-width: 100%;
 }
 
-h2 {
-  font-size: 48px;
-  color: darkblue;
-  text-align: center;
+.btn {
+  width: max-content;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background: #abcdef;
+  color: #040964;
+  text-transform: lowercase;
+  text-decoration: none;
+  border-radius: 1.5rem;
 }
 
-
-/* Game Directions */
-.description {
-  text-align: center;
-  margin: 80px auto 40px;
-}
-
-
-/* Submit Button, Columns, Questions, and Inputs */
-.button-submit {
-  background: transparent;
-  border: 3px solid darkblue;
-  border-radius: 6px;
-  color: darkblue;
-  cursor: pointer; 
-  display: block;
-  font-size: 20px;
-  font-weight: bold;  
-  margin: 0 auto 60px;
-  padding: 1em 2em; 
-  text-align: center; 
-}
-
-.bucket {
-  display: inline-block;
-  margin-bottom: 40px;
-  width: 100%;
-}
-
-.choice-bucket {
-  display: inline-block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 33.333333%;
-}
-
-.choice-bucket label {
-  font-size: 12px;
-  line-height: 13px;
-  margin: 15px 4%;
-}
-
-.choice-bucket input {
-  border: 0;
-  border-radius: 6px;
-  color: royalblue;
-  font-size: 18px;
-  margin: 15px 4%;
-  outline: 0;
-  padding: 16px 0;
-  text-indent: 20px;
-  width: 92%;  
-}
-
-.choice-bucket label ~ input {
-  margin-top: 0;
-}
-
-.highlight {
-  font-size: 18px;
-  line-height: 24px;
-  margin-left: 30px;
-  opacity: .8;
-}
-
-
-
-/* Answer Div */
-#answers {
-  margin: 60px 0;
-  background: #fff;
-  border-radius: 6px;
-  color: darkslateblue;
-  transition: 1s linear;
-}
-
-#answers p {
-  max-width: 760px;
-  margin: auto;
-  padding: 20px 0;
-}
-
-#answers p span {
+.logo {
+  font-family: Sorts Mils Goudy;
+  font-size: 1rem;
   font-weight: bold;
 }
+*/
 
+/* Navigation */
 
-.hide {
-  opacity: 0;
-  height: 0;
+nav {
+  width: 100vw;
+  position: absolute;
 }
 
-.show {
-  opacity: 1;
-  height: 100%;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem;
+  display: flex;
+}
+
+/* nav ul li {
+  margin-left: 1rem;
+} */
+
+nav ul li:first-child {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/*nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) 
+
+{
+  nav ul {
+    margin: 1rem;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-left: 0;
+  }
+}
+
+/* Hero */
+
+
+/*section.hero {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  color: #040964;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-size: cover;
+  padding-left: 3rem;
+}
+/*  background: url("../images/WebBlackTie.jpg"); */
+
+section.hero h1 {
+  font-size: 3rem;
+  color: #040964;
+  max-width: 25rem;
+}
+
+section.hero img.ad {
+  width: 15rem;
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  section.hero {
+    height: 30rem;
+    padding-left: 1rem;
+  }
+
+  section.hero h1 {
+    font-size: 2rem;
+  }
 }
