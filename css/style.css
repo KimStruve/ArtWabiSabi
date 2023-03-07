@@ -1,9 +1,9 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Inconsolata:wght@400;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Inconsolata:wght@400;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
 
 CSS rules to specify families
 
-/*font-family: 'Bad Script', cursive;
+/*font-family: 'Grape Nuts', handwriting;
 font-family: 'EB Garamond', serif;
 font-family: 'Inconsolata', monospace; */
 font-family: 'Poppins', sans-serif;
@@ -50,24 +50,24 @@ nav.header {
   left: 0;
 }
 
-nav.header ul {
+nav ul {
   list-style: none;
   padding: 0;
   margin: 1rem;
   display: flex;
 }
 
-nav.header ul li {
+nav ul li {
   margin-left: 1rem;
 }
 
-nav.header ul li:first-child {
+nav ul li:first-child {
   margin-left: 0;
   margin-right: auto;
 }
 
-nav.header ul li a {
-  color: #fff;
+nav ul li a {
+  color: #040964;
   text-decoration: none;
 }
 
@@ -122,4 +122,9 @@ section.hero {
   font-size: 1rem;
   font-weight: bold;
   }
+}
+nav.footer {
+  width: 100vw;
+  position: absolute;
+  margin-bottom: 0;
 }
