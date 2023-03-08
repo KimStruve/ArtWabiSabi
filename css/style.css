@@ -13,6 +13,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
 /* Global */
 
 h1 {
@@ -29,9 +30,9 @@ img {
   padding: 1rem 2rem;
   background: #abcdef;
   color: #040964;
-  text-transform: lowercase;
+  text-transform: capitalize; 
   text-decoration: none;
-  border-radius: 1.5rem;
+  border-radius: .25rem;
 }
 
 .logo {
@@ -84,7 +85,6 @@ nav ul li a {
 
 /* Hero */
 
-
 section.hero {
   width: 100vw;
   height: 100vh;
@@ -94,13 +94,13 @@ section.hero {
   flex-direction: column;
   justify-content: center;
   background-size: cover;
-  padding-left: 3rem;
+  padding-left: .5rem;
+  padding-top: 1.5rem;
 }
 
 /*  background: url("../images/WebBlackTie.jpg"); */
 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   section.hero {
     height: 30rem;
     padding-left: 1rem;
@@ -115,14 +115,55 @@ section.hero {
   width: 15rem;
   position: absolute;
   bottom: 2rem;
-  right: 2rem;
+  left: 2rem;
   }
+
   section.hero aside.action {
   font-family: Sorts Mill Goudy;
   font-size: 1rem;
   font-weight: bold;
+  left: 0;
   }
 }
+
+/* Featured */
+
+section.featured {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  color: #040964;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  padding: 1rem;
+}
+.buybar {
+  background: #d9d9d9;
+  color: #040964;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align: center;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.featured ul {
+  list-style: none;
+  padding-right: 10;
+  margin: 1rem;
+  display: flex;
+}
+
+.featured li:first-child {
+  margin-left: 0;
+  margin-left: 1rem;
+  margin-right: auto;
+}
+
+/* Footer */
 nav.footer {
   width: 100vw;
   position: absolute;
