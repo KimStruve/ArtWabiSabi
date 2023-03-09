@@ -20,27 +20,13 @@ h1 {
   font-size: 2rem;
 }
 
-h4 {
-  font-size: 1rem;
-  line-break: rem;
-}
-
-a.menu1 {
-  font-size: 2rem;
-}
-
-a.menu2 {
-  font-size: .75rem;
-  text-align: center;
-}
-
 img {
   max-width: 100%;
   padding-inline: 0rem;
 }
 
 .btn {
-  width: max-content;
+  width: 40rem;
   font-size: 1rem;
   padding: 1rem 2rem;
   background: #abcdef;
@@ -60,10 +46,7 @@ img {
 /* Navigation */
 
 nav.header {
-  width: 100vw;
-  position: absolute;
-  top: .75rem;
-  left: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -102,20 +85,15 @@ nav ul li a {
 
 section.hero {
   width: 100vw;
-  height: 100vh;
   background: #fff;
   color: #040964;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  background-size: cover;
-  padding-left: .5rem;
-  padding-top: 1.5rem;
 }
 
 /*  background: url("../images/WebBlackTie.jpg"); */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   section.hero {
     height: 30rem;
     padding-left: 1rem;
@@ -153,35 +131,42 @@ section.featured {
   justify-content: center;
 }
 
-div.featured {
-  border: 1px outset dimgrey; 
-  background-color: d9d9d9; 
-  text-align: center;"
-  padding: 2rem;
- }
 
-.buybar {
-  background: #d9d9d9;
-  color: #040964;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align: center;
-  background-size: cover;
-  padding: 1rem;
-}
+div.featured {
+  border: 5px outset dimgrey; 
+  width: 50vw;
+  background-color: d9d9d9; 
+  text-align: center;
+  padding: 3rem;
+ }
 
 .featured ul {
   list-style: none;
   padding-right: 10;
   margin: 1rem;
   display: flex;
+  gap: 1rem;
 }
 
 .featured li:first-child {
   margin-left: 0;
   margin-left: 1rem;
   margin-right: auto;
+}
+
+.card {
+  width: 200;
+  height: 100%;
+  background: #d9d9d9;
+  color: #040964;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+div.card {
+  max-width: 200px;
+  padding-inline: 0rem;
 }
 
 /* Footer */
