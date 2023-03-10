@@ -47,6 +47,13 @@ img {
 
 nav.header {
   width: 100%;
+  position: fixed; /* Sit on top of the page content */
+  top: -.35rem;
+  left: 3.5rem;
+  display: transparent; /* Hidden by default */
+  background-color: fff; /* original (0,0,0,.5)=Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
 
 nav ul {
@@ -61,7 +68,7 @@ nav ul li {
 }
 
 nav ul li:first-child {
-  margin-left: 0;
+  margin-left: 1rem;
   margin-right: auto;
 }
 
