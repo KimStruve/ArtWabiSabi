@@ -50,6 +50,12 @@ h5 {
   font-size: .75rem;
 }
 
+/* h6 used for __  */
+h6 {
+  display: inline;
+  font-size: .75rem;
+}
+
 img {
   max-width: 100%;
   padding-inline: 0rem;
@@ -82,7 +88,7 @@ p {
 nav.header {
   width: 100%;
   height: 6rem;
-  position: fixed; /* Sit on top of the page content */
+  position: absolute; /* fixed remains static and on top of the page content */
   top: -.35rem;
   margin-left: 0rem;
   display: ffffff; /* Hidden by default */
