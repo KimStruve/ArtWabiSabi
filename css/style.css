@@ -1,3 +1,5 @@
+/*2023 Copyright Kim Struve */
+
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Inconsolata:wght@400;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
 
@@ -9,20 +11,52 @@ font-family: 'Inconsolata', monospace; */
 font-family: 'Poppins', sans-serif;
 font-family: 'Sorts Mill Goudy', serif;
 
+
+/* Global */
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 
-/* Global */
-
+/* h1 used ONCE per page Business Name*/
 h1 {
+  display: inline;
   font-size: 2rem;
+}
+
+/* h2 used for websites & key words, Fold Lock, Metal Leather */
+h2 {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+/* h3 used for products & techniques: fine silver, metal clay, jewelry */
+h3 {
+  display: inline;
+  font-size: 1.25rem;
+}
+
+/* h4 used for taglines: fold your own, hand-folded */
+h4 {
+  display: inline;
+  font-family: script;
+  font-size: 1rem;
+}
+
+/* h5 used for keywords: jewelry, components, findings, tools  */
+h5 {
+  display: inline;
+  font-size: .75rem;
 }
 
 img {
   max-width: 100%;
   padding-inline: 0rem;
+}
+
+p {
+  text-align: left;
 }
 
 .btn {
@@ -47,6 +81,7 @@ img {
 
 nav.header {
   width: 100%;
+  height: 6rem;
   position: fixed; /* Sit on top of the page content */
   top: -.35rem;
   margin-left: 0rem;
@@ -182,3 +217,5 @@ nav.footer {
   position: absolute;
   margin-bottom: 0;
 }
+
+/*2023 Copyright Kim Struve */
