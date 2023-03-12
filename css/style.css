@@ -16,12 +16,14 @@ font-family: 'Sorts Mill Goudy', serif;
 
 body {
   font-family: 'Poppins', sans-serif;
+  text-justify: center;
 }
 
 
-/* h1 used ONCE per page Business Name*/
+/* h1 used ONCE per page: USE Business Name*/
 h1 {
-  display: inline;
+  display: inline-flex;
+  line-height: 0rem;
   font-size: 2rem;
 }
 
@@ -61,10 +63,6 @@ img {
   padding-inline: 0rem;
 }
 
-p {
-  text-align: left;
-}
-
 .btn {
   width: 40rem;
   font-size: 1rem;
@@ -91,7 +89,7 @@ nav.header {
   position: absolute; /* fixed remains static and on top of the page content */
   top: -.35rem;
   margin-left: 0rem;
-  display: ffffff; /* Hidden by default */
+  display: flex; /* was fffff; /* Hidden by default */
   background-color: ffffff; /* original (0,0,0,.5)=Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
